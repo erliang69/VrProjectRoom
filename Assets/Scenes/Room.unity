@@ -536,7 +536,7 @@ GameObject:
   - component: {fileID: 235308788}
   - component: {fileID: 235308790}
   m_Layer: 0
-  m_Name: and Controlleroller
+  m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3127,6 +3127,7 @@ GameObject:
   - component: {fileID: 884727497}
   - component: {fileID: 884727496}
   - component: {fileID: 884727495}
+  - component: {fileID: 884727499}
   m_Layer: 0
   m_Name: RightHand Ray
   m_TagString: Untagged
@@ -3630,6 +3631,20 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &884727499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884727493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf14522d53cc1594991c164e785780dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceToggle: 0
+  directInteractor: {fileID: 474225665}
 --- !u!1001 &887786868
 PrefabInstance:
   m_ObjectHideFlags: 0
